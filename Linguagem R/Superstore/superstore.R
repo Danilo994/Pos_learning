@@ -15,3 +15,21 @@ data
 which(is.na(data))
 colSums(is.na(data))
 anyDuplicated(data)
+
+library(dplyr)
+data %>%
+  summarise(
+    total_sales = sum(Sales),
+    total_profit = sum(Profit),
+    avg_sales = mean(Sales),
+    avg_profit = mean(Profit),
+    total_orders = n()
+  )
+
+library(ggplot2)
+
+sales_year <- data %>% group_by(Year) %>% summarise(total_sales = sum(Sales))
+ggplot(sales_year, aes(x = Year, y = total_sales)) + geom_line() + geom_point() + labs(title = "Vendas por ano")
+
+sales_month <- data %>% group_by(Year, Month) %>% summarise(total_sales = sum(Sales))
+ggplot(sales_month, aes(x = Month, y = total_sales, colour = as.factor(Year))) + geom_line() + labs(title = "Vendas por mẽs")

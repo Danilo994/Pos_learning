@@ -33,3 +33,7 @@ ggplot(sales_year, aes(x = Year, y = total_sales)) + geom_line() + geom_point() 
 
 sales_month <- data %>% group_by(Year, Month) %>% summarise(total_sales = sum(Sales))
 ggplot(sales_month, aes(x = Month, y = total_sales, colour = as.factor(Year))) + geom_line() + labs(title = "Vendas por mẽs")
+
+category_sales <- data %>% group_by(Category) %>% summarise(total_sales = sum(Sales), total_profit = sum(Profit))
+ggplot(category_sales, aes(x = Category, y = total_sales)) + geom_bar(stat = "identity")
+ggplot(category_sales, aes(x = Category, y = total_profit)) + geom_bar(stat = "identity")

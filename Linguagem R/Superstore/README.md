@@ -35,7 +35,7 @@ Foram realizadas as seguintes etapas:
 
 Análise da evolução das vendas por ano.
 
-![Vendas por ano](/imagens/Vendas_ano.png)
+<img src="./imagens/Vendas_ano.png" alt="Vendas por ano">
 
 ---
 
@@ -43,7 +43,7 @@ Análise da evolução das vendas por ano.
 
 Análise de sazonalidade das vendas ao longo dos meses.
 
-![Vendas por mês](/imagens/Vendas_mes.png)
+<img src="./imagens/Vendas_mes.png" alt="Vendas por mês">
 
 ---
 
@@ -51,7 +51,7 @@ Análise de sazonalidade das vendas ao longo dos meses.
 
 Comparação entre categorias de produtos em relação ao volume de vendas.
 
-![Vendas por categoria](/imagens/Vendas_categorias.png)
+<img src="./imagens/Vendas_categorias.png" alt="Vendas por categoria">
 
 ---
 
@@ -59,7 +59,7 @@ Comparação entre categorias de produtos em relação ao volume de vendas.
 
 Identificação das categorias mais lucrativas.
 
-![Lucro por categoria](/imagens/Lucro_categorias.png)
+<img src="./imagens/Lucro_categorias.png" alt="Lucro por categoria">
 
 ---
 
@@ -67,7 +67,7 @@ Identificação das categorias mais lucrativas.
 
 Distribuição geográfica das vendas.
 
-![Vendas por região](/imagens/Vendas_regiao.png)
+<img src="./imagens/Vendas_regiao.png" alt="Vendas por região">
 
 ---
 
@@ -75,7 +75,7 @@ Distribuição geográfica das vendas.
 
 Comparação de lucratividade entre regiões.
 
-![Lucro por região](/imagens/Lucro_regiao.png)
+<img src="./imagens/Lucro_regiao.png" alt="Lucro por região">
 
 ---
 
@@ -83,7 +83,7 @@ Comparação de lucratividade entre regiões.
 
 Identificação dos produtos mais vendidos.
 
-![Vendas por subcategoria](/imagens/Vendas_subcategoria.png)
+<img src="./imagens/Vendas_subcategoria.png" alt="Vendas por subcategoria">
 
 ---
 
@@ -91,7 +91,7 @@ Identificação dos produtos mais vendidos.
 
 Distribuição do tempo de entrega dos pedidos.
 
-![Tempo de envio](/imagens/Tempo_envio.png)
+<img src="./imagens/Tempo_envio.png" alt="Tempo de envio">
 
 ---
 
